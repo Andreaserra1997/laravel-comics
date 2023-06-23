@@ -3,6 +3,29 @@
 // body {
 //     // background-image: url("../img/");
 // }
-.list-header-link li {
-    color: red;
+header {
+    background-color: #fff;
+    .content-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 6rem;
+        max-width: 1000px;
+        margin: auto;
+        img {
+            width: 50%;
+        }
+    }
+}
+
+.list-header-link {
+    display: flex;
+    li {
+        list-style: none;
+        padding-inline: 0.6rem;
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
 }
