@@ -5,7 +5,7 @@
         @endphp
         @foreach ($comics as $item)
             <li>
-                <img src="{{ $item['thumb'] }}" alt="">
+                <img src="{{ Vite::asset('resources/img/'.$item['thumb']) }}" alt="">
                 <a href="">{{ $item['series'] }}</a>
             </li>
         @endforeach
