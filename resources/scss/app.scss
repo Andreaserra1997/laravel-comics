@@ -32,3 +32,23 @@ header {
     background-size: cover;
     height: 300px;
 }
+
+.container-card {
+    background-color: #1c1c1c;
+}
+
+.list-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    li {
+        width: calc(100% / 6);
+        padding-inline: 1rem;
+        list-style: none;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+}
