@@ -1,8 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
 
-// body {
-//     // background-image: url("../img/");
-// }
 header {
     background-color: #fff;
     .content-header {
@@ -28,4 +25,10 @@ header {
             color: black;
         }
     }
+}
+
+.jumbo {
+    background-image: url("../img/jumbotron.jpg");
+    background-size: cover;
+    height: 300px;
 }
