@@ -3,42 +3,42 @@
 return [
     [
         "name" => "CHARACTERS",
-        "src" => "#",
+        "src" => "/characters",
     ],
     [
         "name" => "COMICS",
-        "src" => "#",
+        "src" => "/comics",
     ],
     [
         "name" => "MOVIES",
-        "src" => "#",
+        "src" => "/movies",
     ],
     [
         "name" => "TV",
-        "src" => "#",
+        "src" => "/tv",
     ],
     [
         "name" => "GAMES",
-        "src" => "#",
+        "src" => "/games",
     ],
     [
         "name" => "COLLECTIBLES",
-        "src" => "#",
+        "src" => "/collectibles",
     ],
     [
         "name" => "VIDEOS",
-        "src" => "#",
+        "src" => "/videos",
     ],
     [
         "name" => "FANS",
-        "src" => "#",
+        "src" => "/fans",
     ],
     [
         "name" => "NEWS",
-        "src" => "#",
+        "src" => "/news",
     ],
     [
         "name" => "SHOP",
-        "src" => "#",
+        "src" => "/shop",
     ],
 ];

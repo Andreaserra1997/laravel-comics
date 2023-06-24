@@ -39,6 +39,7 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-bottom: 1rem;
         a {
             padding-top: 0.3rem;
             padding-bottom: 0.3rem;
@@ -72,6 +73,11 @@ header {
             height: 100%;
             object-fit: cover;
         }
+        a {
+            text-decoration: none;
+            color: white;
+            padding-bottom: 1rem;
+        }
     }
 }
 
@@ -100,6 +106,60 @@ header {
                 font-size: 0.8rem;
                 white-space: nowrap;
                 color: #fff;
+            }
+        }
+    }
+}
+
+footer {
+    background-image: url("../img/footer-bg.jpg");
+    padding: 3rem;
+    .content-footer {
+        max-width: 1000px;
+        margin: auto;
+    }
+    .big-list {
+        display: flex;
+        h3 {
+            color: white;
+            padding-bottom: 0.8rem;
+        }
+        li {
+            list-style: none;
+            padding-inline: 0.8rem;
+            color: #959595;
+            line-height: 1.3rem;
+        }
+    }
+    .list-down {
+        padding-top: 0.5rem;
+    }
+}
+.footer-down {
+    background-color: #303030;
+    .content-footer-down {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 6rem;
+        max-width: 1000px;
+        margin: auto;
+        button {
+            border: 3px solid #0282f9;
+            background-color: #303030;
+            color: #fff;
+            padding: 0.8rem;
+            cursor: pointer;
+        }
+        .icon-social {
+            display: flex;
+            align-items: center;
+            img {
+                padding-inline: 0.5rem;
+            }
+            h3 {
+                color: #0282f9;
+                padding-right: 1rem;
             }
         }
     }

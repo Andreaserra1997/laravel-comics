@@ -6,7 +6,7 @@
                 $menu = config('menu');
             @endphp
             @foreach ($menu as $item)
-                <li><a href="">{{ $item['name'] }}</a></li>
+                <li><a href="{{ $item['src'] }}">{{ $item['name'] }}</a></li>
             @endforeach
         </ul>
     </div>
